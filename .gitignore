@@ -1,0 +1,21 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary
+*.tmp
+*.bak
+*.log
+
+# Test output
+/tmp/agents-skills-test
+
+# Local install target (never commit installed copies)
+.installed/
