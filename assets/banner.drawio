@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" modified="2026-06-17T12:00:00.000Z" agent="Mozilla/5.0" etag="coding-agent-skills" version="24.0.0" type="device">
+  <diagram name="banner">
+    <mxGraphModel dx="1280" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1280" pageHeight="640" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="EC 的编程 Skill" style="text;html=1;align=center;verticalAlign=middle;fontSize=52;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="390" y="50" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="让 Agent 写代码少一点抽奖感" style="text;html=1;align=center;verticalAlign=middle;fontSize=20;fontColor=#6b7280;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="440" y="105" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="start" value="用户请求" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dbeafe;strokeColor=#3b82f6;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="540" y="170" width="200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="skill1" value="dev-workflow&lt;br&gt;&lt;font style=&amp;quot;font-size:14px; color:#6b7280&amp;quot;&gt;分阶段推进 · 防止上下文爆炸&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3b82f6;fontSize=20;fontStyle=1;arcSize=6" vertex="1" parent="1">
+          <mxGeometry x="140" y="280" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="skill2" value="polish-loop-v2&lt;br&gt;&lt;font style=&amp;quot;font-size:14px; color:#6b7280&amp;quot;&gt;最多 5 轮 · 只审变更文件&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#10b981;fontSize=20;fontStyle=1;arcSize=6" vertex="1" parent="1">
+          <mxGeometry x="520" y="280" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="skill3" value="ui-audit&lt;br&gt;&lt;font style=&amp;quot;font-size:14px; color:#6b7280&amp;quot;&gt;扫描 UI 硬伤 · 状态缺失&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#f59e0b;fontSize=20;fontStyle=1;arcSize=6" vertex="1" parent="1">
+          <mxGeometry x="900" y="280" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="guardian" value="project-guardian · 强制 Git 纪律&lt;br&gt;&lt;font style=&amp;quot;font-size:13px; color:#6b7280&amp;quot;&gt;自动 init / add / commit · 只在危险操作时确认&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#ef4444;fontSize=18;fontStyle=1;dashed=1;arcSize=6" vertex="1" parent="1">
+          <mxGeometry x="440" y="460" width="400" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6b7280;fontSize=14" edge="1" parent="1" source="start" target="skill2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6b7280;fontSize=14" edge="1" parent="1" source="skill1" target="skill2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6b7280;fontSize=14" edge="1" parent="1" source="skill2" target="skill3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6b7280;fontSize=14" edge="1" parent="1" source="skill2" target="guardian">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" value="for Trae / Claude Code / Codex" style="text;html=1;align=center;verticalAlign=middle;fontSize=14;fontColor=#9ca3af;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="490" y="580" width="300" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

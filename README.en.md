@@ -1,4 +1,8 @@
 <p align="center">
+  <a href="README.md">中文</a> | <a href="README.en.md">English</a>
+</p>
+
+<p align="center">
   <img src="assets/banner.svg" alt="EC's Coding Skills" width="100%"/>
 </p>
 
@@ -10,9 +14,24 @@
   <a href="#quick-start">🚀 Quick Start</a> ·
   <a href="#recommended-workflow">📖 Workflow</a> ·
   <a href="#real-world-cases">📝 Cases</a> ·
-  <a href="#pitfalls-we-hit">🐛 Pitfalls</a> ·
-  <a href="README.md">中文</a>
+  <a href="#pitfalls-we-hit">🐛 Pitfalls</a>
 </p>
+
+---
+
+## One-click Setup
+
+If you don't want to install manually, paste this prompt into your Coding Agent (Trae / Codex / Claude Code) and let it do the rest:
+
+```text
+Please install and configure the skills from https://github.com/ECdison6227/coding-agent-skills:
+
+1. Git clone the repo into a temporary directory
+2. Run ./install.sh to install the skills
+3. Tell me which skills were installed, what each does, and their trigger words
+4. If any skill needs initial setup (profile, preferences), guide me through it
+5. Finally, demo how to invoke one of the skills with a simple example
+```
 
 ---
 

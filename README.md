@@ -1,4 +1,8 @@
 <p align="center">
+  <a href="README.md">中文</a> | <a href="README.en.md">English</a>
+</p>
+
+<p align="center">
   <img src="assets/banner.svg" alt="EC 的编程 Skill" width="100%"/>
 </p>
 
@@ -10,9 +14,24 @@
   <a href="#快速开始">🚀 快速开始</a> ·
   <a href="#推荐工作流">📖 推荐工作流</a> ·
   <a href="#完整案例">📝 完整案例</a> ·
-  <a href="#我们踩过的坑">🐛 踩坑记录</a> ·
-  <a href="README.en.md">English</a>
+  <a href="#我们踩过的坑">🐛 踩坑记录</a>
 </p>
+
+---
+
+## 一键使用
+
+如果你不想手动安装，直接把下面这段 prompt 发给你的 Coding Agent（Trae / Codex / Claude Code），它会自动完成安装并解释用法：
+
+```text
+请帮我安装并配置 https://github.com/ECdison6227/coding-agent-skills 这个仓库里的 Skill：
+
+1. 先 git clone 到临时目录
+2. 运行 ./install.sh 安装 Skill
+3. 告诉我安装了哪些 Skill、每个 Skill 的用途和触发词
+4. 如果 Skill 需要初始化配置（如创建个人资料、设置偏好），请引导我完成
+5. 最后用一个简单的例子演示如何调用其中一个 Skill
+```
 
 ---
 
