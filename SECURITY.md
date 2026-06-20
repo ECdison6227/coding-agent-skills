@@ -4,7 +4,7 @@
 
 如果你发现安全漏洞，**请不要开公开 Issue**。
 
-请发邮件到 `ECdison6227@users.noreply.github.com`（GitHub noreply 邮箱），或在 GitHub 私下联系 [@ECdison6227](https://github.com/ECdison6227)。
+请发邮件到 `2014184720@qq.com`，或在 GitHub 私下联系 [@ECdison6227](https://github.com/ECdison6227)。
 
 报告时请包含：
 - 漏洞描述和影响范围
