@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/banner.svg" alt="EC's Coding Skills" width="100%"/>
+  <img src="assets/readme/hero.svg" alt="EC's Coding Skills" width="100%"/>
 </p>
 
 <p align="center">

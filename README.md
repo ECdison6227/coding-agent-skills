@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/banner.svg" alt="EC 的编程 Skill" width="100%"/>
+  <img src="assets/readme/hero.svg" alt="EC 的编程 Skill" width="100%"/>
 </p>
 
 <p align="center">
